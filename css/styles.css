@@ -137,7 +137,6 @@ img {
   color: #404bbf;
 }
 .section-title {
-  max-width: 1140px;
   margin: 0 auto;
   padding: 188px 0;
   background-image: linear-gradient(
@@ -148,7 +147,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  max-width: 1440px;
 }
 .title-text {
   color: #fff;
@@ -297,9 +296,6 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
 }
-/* .team-item-soc a {
-  align-items: center;
-} */
 .team-soc-link {
   width: 100%;
   height: 100%;
@@ -428,6 +424,8 @@ img {
 .footer-wraper {
   display: flex;
   align-items: baseline;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 .footer-soc-content {
   margin-right: 120px;
